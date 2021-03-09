@@ -1,0 +1,43 @@
+$btn-color : #28a745;
+$font-style : 'Shippori Mincho B1', serif;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-style{
+    border-radius: 20px;
+    background-color: $btn-color;
+}
+h2{
+    font-family: $font-style;
+}
+.nav-text{
+    line-height: 0;
+}
+.head-banner-main{
+    background-image: linear-gradient(darkblue,blue);
+    height: 100vh;
+}
+.nav-link{
+    margin: 0 20px;
+    color: #ffc107 !important;
+    font-weight: bold;
+    &:hover{
+    font-weight: normal;
+    }
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.carousel-control-prev{
+    position: relative;
+}
+.carousel-control-next{
+    position: relative;
+}
